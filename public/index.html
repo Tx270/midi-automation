@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midi Automation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <div id="inputs">
+        <label>Device: <select name="device" id="device" onchange="changeDevice()"></select></label>
+        <label>Song: <select name="song" id="song" onchange="changeSong()"></select></label>
+        <label>Offset: <input type="number" name="offset" id="offset" placeholder="0" onchange="changeOffset()"></label>
+    </div>
+
+    <header>
+        <h1>Midi Automation</h1>
+        <p>Play the backing track and midi CC impulses from chosen file will trigger automaticly</p>
+    </header>
+
+    <audio id="audio" controls>
+        <source src="" type="audio/mpeg">
+    </audio>
+
+    <div id="console"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

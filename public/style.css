@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px !important;
+    
+    h1 {
+        font-size: 2.5rem;
+        color: #f39c12;
+    }
+}
+
+#inputs {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+
+    select, input {
+        width: 300px;
+        height: 40px;
+        font-size: medium;
+        padding: 10px !important;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+}
+
+audio {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#console {
+    width: 70%;
+    height: 400px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-y: auto;
+    margin: 20px 0;
+
+    white-space: pre-wrap;
+    line-height: 30px;
+
+    p {
+        margin: 0;
+    }
+    
+    .success {
+        color: #2ecc71;
+    }
+
+    .error {
+        color: #e74c3c;
+    }
+
+    .info {
+        color: #3498db;
+    }
+}

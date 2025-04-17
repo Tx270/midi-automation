@@ -1,0 +1,71 @@
+{
+    "offset": 0,
+    "events": [
+      {
+        "time": 0.1,
+        "cc": "50",
+        "value": "1",
+        "message": "Swiched to clean flanger"
+      },
+      {
+        "time": 48.3,
+        "cc": "52",
+        "value": "1",
+        "message": "Swiched to distortion chorus"
+      },
+      {
+        "time": 67.7,
+        "cc": "53",
+        "value": "1",
+        "message": "Swiched to distorion"
+      },
+      {
+        "time": 88.6,
+        "cc": "52",
+        "value": "1",
+        "message": "Swiched to distortion chorus"
+      },
+      {
+        "time": 99.8,
+        "cc": "50",
+        "value": "1",
+        "message": "Swiched to clean flanger"
+      },
+      {
+        "time": 119.2,
+        "cc": "51",
+        "value": "1",
+        "message": "Swiched to clean chorus"
+      },
+      {
+        "time": 138.2,
+        "cc": "52",
+        "value": "1",
+        "message": "Swiched to distortion chorus"
+      },
+      {
+        "time": 148.0,
+        "cc": "53",
+        "value": "1",
+        "message": "Swiched to distorion"
+      },
+      {
+        "time": 168.0,
+        "cc": "54",
+        "value": "1",
+        "message": "Swiched to clean"
+      },
+      {
+        "time": 176.8,
+        "cc": "50",
+        "value": "1",
+        "message": "Swiched to clean flanger"
+      },
+      {
+        "time": 178.5,
+        "cc": "52",
+        "value": "1",
+        "message": "Swiched to distortion chorus"
+      }
+    ]
+  }

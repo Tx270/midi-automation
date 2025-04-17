@@ -1,0 +1,11 @@
+{
+    "offset": 0,
+    "events": [
+        { "time": 2.0, "cc": "50", "value": "1", "message": "Swiched to preset 1" },
+        { "time": 4.0, "cc": "51", "value": "1", "message": "Swiched to preset 2" },
+        { "time": 6.0, "cc": "52", "value": "1", "message": "Swiched to preset 3" },
+        { "time": 8.0, "cc": "53", "value": "1", "message": "Swiched to preset 4" },
+        { "time": 10.0, "cc": "54", "value": "1", "message": "Swiched to preset 5" },
+        { "time": 40.0, "cc": "54", "value": "1", "message": "Swiched to preset 5" }
+    ]
+}
