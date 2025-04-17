@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding-bottom: 10px !important;
-    
+
     h1 {
         font-size: 2.5rem;
         color: #f39c12;
@@ -28,7 +28,8 @@ header {
     justify-content: center;
     flex-direction: column;
 
-    select, input {
+    select,
+    input {
         width: 300px;
         height: 40px;
         font-size: medium;
@@ -60,7 +61,7 @@ audio {
     p {
         margin: 0;
     }
-    
+
     .success {
         color: #2ecc71;
     }
@@ -71,5 +72,16 @@ audio {
 
     .info {
         color: #3498db;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #inputs {
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
 }

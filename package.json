@@ -1,14 +1,38 @@
 {
   "name": "kemper",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
+  "description": "Kemper desktop app",
+  "main": "electron.js",
+  "author": "tx27",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "dist": "electron-builder"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.tx27.kemper",
+    "productName": "Kemper",
+  "files": [
+    "src/**/*",
+    "public/**/*",
+    "data/**/*",
+    "electron.js",
+    "package.json"
+  ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "linux": {
+      "target": ["AppImage"],
+      "icon": "assets/icon.png",
+      "category": "Audio"
+    }
   }
 }
